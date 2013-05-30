@@ -4,6 +4,7 @@ exports.init = function(grunt, task, context) {
 	var copyTempFile = function(srcFile, destDir) {		
 		var src = __dirname + srcFile;
     	var target = path.join(destDir,srcFile);
+    	target = target.replace(/[\\]/g, "/"); // Workaround a Windows backslash path incompatibility
     	
     	grunt.file.copy(src, target);
     	return target;
