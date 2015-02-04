@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsoverson/grunt-template-jasmine-requirejs"
+    "url": "https://github.com/SteelSeries/grunt-template-jasmine-requirejs"
   },
   "keywords": [
     "grunt",
