@@ -14,7 +14,7 @@
   <% }) %>
   <% }; %>
 
-  <script src="<%= temp ? temp + "/" : temp %>require.js"></script>
+  <script src="require.js"></script>
 
   <% with (scripts) { %>
   <% [].concat(jasmine, boot, helpers).forEach(function(script){ %>
